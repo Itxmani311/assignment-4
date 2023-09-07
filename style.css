@@ -1,0 +1,442 @@
+body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Home Section */
+#home {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: 0px;
+    background-color: rgb(64, 78, 237);
+}
+
+#home::before {
+    background: url(./images/cloud.svg)no-repeat center center/cover;
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+
+.midtext {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 76%;
+    
+}
+
+.midtext h1 {
+    font-size: 70px;
+    color: white;
+    margin-bottom: 32px;
+}
+
+.midtext p {
+    color: white;
+    margin: 6px;
+}
+
+.allbutton {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 430px;
+    width: 100%;
+}
+
+.allbutton button {
+    margin: 6px;
+    padding: 12px 23px;
+    font-size: 18px;
+    border-radius: 22px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+    .navbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        margin-top: 35px;
+    }
+    #navlogo{
+        position: relative;
+        width: 120px;
+        left: 100px;
+        cursor: pointer;
+    }
+    .navbar button{
+        position: relative;
+        left: 170px;
+        background-color: white;
+        border: 2px solid white;
+        color: black;
+        padding: 9px 13px;
+        border-radius: 20px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    .navbar button:hover{
+       color: blue;
+       box-shadow: 2px 2px 12px 12px blue;
+       background-color: rgb(145, 153, 248);
+       border: 2px solid rgb(145, 153, 248);
+    }
+       
+    .navbar ul{
+        display: flex;
+    }
+    .navbar li{
+        list-style: none;
+        padding: 12px 23px; 
+    }
+    .navbar li a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        font-size: 14px;
+    }
+    .navbar li a:hover{
+        text-decoration: underline;
+       
+    }
+    
+
+#button1 {
+    border: 2px solid white;
+}
+
+#button1:hover {
+    color: blue;
+}
+
+#button2 {
+    background-color: rgb(49, 51, 56);
+    border: 2px solid rgb(49, 51, 56);
+    color: white;
+}
+
+#button2:hover {
+    background-color: rgb(86, 88, 92);
+    border: 2px solid rgb(86, 88, 92);
+}
+
+#home img {
+    position: absolute;
+}
+
+#img1 {
+    top: 302px;
+    left: -353px;
+}
+
+#img2 {
+    top: 294px;
+    right: -303px;
+}
+
+/* first main Section */
+#section1 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 800px;
+}
+
+.sec1text {
+    display: flex;
+}
+
+.sec1text div {
+    right: 60px;
+    top: 50px;
+    position: absolute;
+}
+
+.sec1text div h1 {
+    font-size: 50px;
+    margin: 12px;
+}
+
+.sec1text div p {
+    font-size: 18px;
+    margin: 12px;
+    color: rgb(59, 59, 59);
+}
+
+.sec1text img {
+    position: absolute;
+    left: 40px;
+}
+
+/*  second main Section */
+#section2 {
+    background-color: rgb(246, 246, 246);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 1350px;
+}
+
+.sec2text {
+    display: flex;
+}
+
+.sec2text img {
+    position: absolute;
+    right: 20px;
+    top: 100px;
+}
+
+.sec2text div {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+
+.sec2text h1 {
+    font-size: 50px;
+    margin: 12px;
+}
+
+.sec2text p {
+    font-size: 18px;
+    margin: 12px;
+    color: rgb(59, 59, 59);
+}
+
+/* third main Section */
+#section3 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 2200px;
+}
+
+.sec3text {
+    display: flex;
+}
+
+.sec3text div {
+    right: 60px;
+    top: 50px;
+    position: absolute;
+}
+
+.sec3text div h1 {
+    font-size: 50px;
+    margin: 12px;
+}
+
+.sec3text div p {
+    font-size: 18px;
+    margin: 12px;
+    color: rgb(59, 59, 59);
+}
+
+.sec3text img {
+    position: absolute;
+    left: 40px;
+    width: 700px;
+}
+
+/* Fourth main  section */
+#section4 {
+    position: absolute;
+    height: 220%;
+    width: 100%;
+    top: 2800px;
+    background-color: rgb(246, 246, 246);
+}
+
+.sec4text {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sec4text div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec4text div h1 {
+    font-size: 45px;
+    font-weight: bold;
+    margin: 12px;
+}
+
+.sec4text div p {
+    font-size: 18px;
+    color: rgb(59, 59, 59);
+}
+
+.sec4text img {
+    width: 1200px;
+    margin-top: 50px;
+}
+
+.minitext {
+    margin-top: 100px;
+}
+
+#button3 {
+    padding: 12px 23px;
+    font-size: 18px;
+    border-radius: 22px;
+    margin-top: 40px;
+    border: 2px solid rgb(121, 131, 245);
+    background-color: rgb(121, 131, 245);
+    color: white;
+    transition: 0.5s;
+}
+
+#button3:hover {
+    background-color: rgb(135, 145, 250);
+    border: 2px solid rgb(135, 145, 250);
+    box-shadow: 2px 12px 12px rgb(128, 127, 127);
+}
+
+/* Last Section */
+#lastsection {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 4200px;
+    background-color: rgb(35, 39, 42);
+
+}
+
+.footerselect {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown p {
+    color: blue;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.dropdown li {
+    list-style: none;
+}
+
+.dropdown li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.dropdown li a:hover {
+    text-decoration: underline;
+}
+
+.dropdown li {
+    padding: 10px;
+}
+
+.dropdown div {
+    padding: 15px;
+}
+
+.selector select {
+    position: absolute;
+    left: 220px;
+    border: none;
+    background-color: rgb(35, 39, 42);
+    color: white;
+    cursor: pointer;
+
+}
+
+.selector h4 {
+    position: relative;
+    left: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.selector img {
+    width: 30px;
+    position: absolute;
+    left: 75px;
+    cursor: pointer;
+}
+
+#foots {
+    height: 1px;
+    width: 90%;
+    border: none;
+    background-color: blue;
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 30px;
+}
+
+#footlogo {
+    width: 120px;
+    filter: 100%;
+    position: relative;
+    top: 60px;
+    left: 68px;
+    cursor: pointer;
+
+}
+
+#signup {
+    position: relative;
+    top: 50px;
+    left: 1070px;
+    padding: 9px 12px;
+    font-size: 14px;
+    border-radius: 22px;
+    background-color: rgb(121, 131, 245);
+    border: 2px solid rgb(121, 131, 245);
+    color: white;
+    cursor: pointer;
+}
+
+#signup:hover {
+    background-color: rgb(145, 153, 248);
+    border: 2px solid rgb(145, 153, 248);
+    color: blue;
+    box-shadow: 2px 2px 12px 12px blue;
+}
+
+.icons img {
+    filter: invert(100%);
+    width: 30px;
+    cursor: pointer;
+}
